@@ -1,7 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 body {
   font-family: 'Inter', sans-serif;
   background-color: #ffffff;
@@ -69,7 +65,7 @@ body {
   display: inline-flex;
   align-items: center;
   padding: 10px 16px;
-  border-radius: 999px;
+  border-radius: 20px;
   font-weight: 600;
   color: #4b5563;
   border: 1px solid transparent;
@@ -217,11 +213,6 @@ body {
 .page-title {
   font-size: clamp(1.75rem, 3vw, 2.25rem);
   margin-bottom: 8px;
-}
-
-.page-lead {
-  color: #6b7280;
-  max-width: 70ch;
 }
 
 .cards-row {
@@ -374,20 +365,116 @@ body {
 
 .footer-grid {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 20px;
   justify-content: space-between;
+  align-items: flex-start;
+}
+
+.social {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
 }
 
 .social-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 14px;
+  padding: 12px 14px;
   border-radius: 10px;
   background-color: #3b4248;
   color: #ffffff;
   font-weight: 600;
   border: 1px solid rgba(255, 255, 255, 0.08);
   transition: transform 0.15s ease, background-color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #111827;
+  background-color: rgba(37, 99, 235, 0.06);
+  transform: translateY(-1px);
+}
+
+.nav-link:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.35);
+}
+
+.btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.45);
+}
+
+.btn-hero:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(29, 78, 216, 0.4);
+}
+
+.btn-outline:hover {
+  background-color: rgba(37, 99, 235, 0.08);
+  transform: translateY(-1px);
+}
+
+.btn-cart:hover {
+  background-color: #0891b2;
+  transform: translateY(-1px);
+  box-shadow: 0 12px 22px rgba(8, 145, 178, 0.3);
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(37, 99, 235, 0.2);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);
+}
+
+.adv-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.1);
+}
+
+.footer-list a:hover {
+  color: #93c5fd;
+}
+
+.social-link:hover {
+  background-color: #4b5563;
+  transform: translateY(-1px);
+}
+
+.advantages {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.adv-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 18px;
+  border: 1px solid rgba(17, 24, 39, 0.06);
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.adv-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.1);
+}
+
+.adv-icon {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.adv-card h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.adv-card p {
+  font-size: 0.95rem;
+  color: #6b7280;
 }
