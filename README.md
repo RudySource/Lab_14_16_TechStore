@@ -21,7 +21,7 @@
     <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" width="120" height="30"/>
   </a>
   <a href="https://html.spec.whatwg.org/multipage/">
-    <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg" width="120" height="30"/>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" width="120" height="30"/>
   </a>
 </p>
 
