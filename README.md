@@ -15,13 +15,13 @@
 
 <p align="center" width="100%">
   <a href="https://github.com/RudySource?tab=repositories">
-    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" width="100" height="30"/>
+    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="https://www.w3.org/Style/CSS/">
-    <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" width="100" height="30"/>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" width="20" height="20"/>
   </a>
   <a href="https://html.spec.whatwg.org/multipage/">
-    <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg" width="100" height="30"/>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg" width="20" height="20"/>
   </a>
 </p>
 
