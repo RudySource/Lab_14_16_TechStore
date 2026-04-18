@@ -7,15 +7,19 @@
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="style.css" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;family=Playfair+Display:ital,wght@0,700;1,700&amp;display=swap"
 			rel="stylesheet"
 		/>
 	</head>
 	<body>
-    <input class="nav-toggle" type="checkbox" />
+		<input id="nav-toggle" class="nav-toggle" type="checkbox" />
 		<header class="site-header">
 			<div class="container" id="header-site">
 				<a class="logo" href="index.html">TechStore</a>
+				<label class="burger" for="nav-toggle">
+					<span></span>
+					<span></span>
+					<span></span>
 				</label>
 				<nav class="navigation">
 					<div class="nav-list">
@@ -24,7 +28,7 @@
 						<div><a class="nav-link" href="about.html">О нас</a></div>
 					</div>
 				</nav>
-				<div class="header_tools">
+				<div class="header-tools">
 					<span class="icon-pill" title="Поиск">🔎</span>
 					<span class="icon-pill" title="Корзина">🛒</span>
 				</div>
@@ -38,7 +42,7 @@
 				</div>
 			</section>
 
-			<section class="section section-tight" >
+			<section class="section section-tight">
 				<div class="container">
 					<div class="catalog-grid">
 						<article class="product-card">
