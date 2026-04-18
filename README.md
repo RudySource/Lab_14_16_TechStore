@@ -14,7 +14,7 @@
 </div>
 
 <p align="center" width="100%">
-  <a href="https://github.com/RudySource?tab=repositories"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a><a href="https://www.w3.org/Style/CSS/"><img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" width="20" height="20"/></a><a href="https://html.spec.whatwg.org/multipage/"><img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg" width="20" height="20"/></a>
+  <a href="https://github.com/RudySource?tab=repositories"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a><a href="https://www.w3.org/Style/CSS/"><img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" width="50" height="40"/></a><a href="https://html.spec.whatwg.org/multipage/"><img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg" width="50" height="40"/></a>
 </p>
 
 <div align="center" style="max-width: 600px; margin: 0 auto; padding: 18px; border-radius: 18px; background: rgba(255,255,255,0.06); box-shadow: 0 14px 30px rgba(0,0,0,0.08);">
