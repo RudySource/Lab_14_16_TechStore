@@ -215,6 +215,33 @@ body {
   margin-bottom: 8px;
 }
 
+.prose p {
+  color: #4b5563;
+  max-width: 85ch;
+  margin-bottom: 12px;
+}
+
+.page-lead {
+  color: #6b7280;
+  max-width: 70ch;
+}
+
+.breadcrumbs {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.breadcrumbs a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.breadcrumbs a:hover {
+  color: #1d4ed8;
+}
+
 .cards-row {
   display: flex;
   flex-wrap: wrap;
@@ -476,5 +503,116 @@ body {
 
 .adv-card p {
   font-size: 0.95rem;
+  color: #6b7280;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.stat {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid rgba(17, 24, 39, 0.06);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+.stat-value {
+  display: block;
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #2563eb;
+}
+
+.stat-label {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.team-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(17, 24, 39, 0.08);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.12);
+}
+
+.team-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background-color: #e5e7eb;
+}
+
+.team-card h3 {
+  padding: 14px 16px 0;
+  font-size: 1.05rem;
+  color: #2563eb;
+}
+
+.role {
+  padding: 4px 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.bio {
+  padding: 6px 16px 16px;
+  font-size: 0.92rem;
+  color: #6b7280;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.why-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 16px;
+  border: 1px solid rgba(17, 24, 39, 0.06);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(37, 99, 235, 0.2);
+}
+
+.why-icon {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.why-card h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.why-card p {
+  font-size: 0.92rem;
   color: #6b7280;
 }
