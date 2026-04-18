@@ -13,7 +13,7 @@
 
 </div>
 
-<p align="center">
+<p align="center" width="100%">
   <a href="https://github.com/RudySource?tab=repositories">
     <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" width="100" height="30"/>
   </a>
